@@ -1,4 +1,4 @@
-# translate_http_request
+# Translate HTTP Request
 Is an app to translate any language to English created using Vuejs and Axios for http request
 api that I use : [api-translate](https://github.com/azharimm/api-translate)
 
