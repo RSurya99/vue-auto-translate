@@ -1,6 +1,16 @@
 # translate_http_request
+Is an app to translate any language to English created using Vuejs and Axios for http request
+api that I use : [api-translate](https://github.com/azharimm/api-translate)
 
-## Project setup
+## Demo
+![Demo gif](public/demo.gif)
+
+## How it works
+I'm using Vuejs two-way data binding and watch, so if there is a change on the input text, it will automatically make a request to the API using Axios.
+
+## How to run
+
+### Install all dependencies
 ```
 npm install
 ```
@@ -10,15 +20,13 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
+## How to deploy
+
+### Compiles and minifies project for production
 ```
 npm run build
 ```
+this will generate dist folder for deployment
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### deployment
+Go to [netlify](https://app.netlify.com/) and create a new project, then upload dist folder to your project.

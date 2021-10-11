@@ -1,0 +1,2 @@
+The target is English
+Result of the sample test must be: I'm a football captain
