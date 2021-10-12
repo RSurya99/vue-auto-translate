@@ -27,5 +27,5 @@ npm run build
 ```
 this will generate dist folder for deployment
 
-### deployment
-Go to [netlify](https://app.netlify.com/) and create a new project, then upload dist folder to your project.
+## deployment
+Go to [netlify](https://app.netlify.com/) and click sites menu, then drag dist folder to the page.
